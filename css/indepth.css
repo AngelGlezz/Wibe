@@ -1,0 +1,490 @@
+#indepth_cover {
+	background: url(../images/Portada_Wibe.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #000;
+	width: auto;
+}
+
+.indepth_content {
+	position: relative;
+	width: 960px;
+	height: 100%;
+	margin: auto;
+}
+
+#logo {
+	position: relative;
+	width: 415px;
+	height: 150px;
+	margin: auto;
+	top: 415px;
+}
+
+#content {
+	height: 1036px;
+	width: auto;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+.text_content {
+	width: 960px;
+	height: 120px;
+	position: relative;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.gif {
+	width: 150px;
+	height: auto;
+	margin-right: 45px;
+	display: inline-block;
+	float: left;
+	position: relative;
+    top: -15px;
+}
+
+.gif img {
+	border-radius: 75px;
+}
+
+#middle_text {
+	width: 760px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 20px;
+}
+
+.text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #22d47a;
+	display: inline-block;
+	float: left;
+	width: 760px;
+	font-weight: 800;
+}
+
+.text span {
+	font-size: 22px;
+	color: #81919b;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 28px;
+	font-weight: 400;
+}
+
+#ejecucion {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #22d47a;
+	margin: auto;
+	position: relative;
+	top: 115px;
+	width: 130px;
+}
+
+#indepth_line {
+	position: relative;
+	top: 130px;
+	padding: 10px;
+	border-bottom: solid #81919b 1px;
+}
+
+#indepth_text {
+	position: relative;
+	color: #81919b;
+	font-family: 'Open Sans', sans-serif;
+	width: 75px;
+}
+
+#indepth_text i {
+	color: #22d47a;
+	margin-right: 5px;
+}
+
+#tour {
+	width: 640px;
+	height: 360px;
+	position: relative;
+	margin: auto;
+	top: 150px;
+	margin-bottom: 110px;
+}
+
+#final {
+	height: 530px;
+	width: 100%;
+	background-color: #15986c;
+}
+
+#resultados {
+	position: relative;
+	top: 50px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	color: #a3bfbb;
+	width: 160px;
+	font-size: 24px;
+	font-weight: 800;
+}
+
+#resulta_content {
+	width: 705px;
+	height: 280px;
+	margin: auto;
+	position: relative;
+	top: 100px;
+}
+
+.content_data {
+	width: 160px;
+	height: 310px;
+	display: inline-block;
+	float: left;
+	margin-right: 115px;
+}
+
+.data_img img {
+	border-radius: 75px;
+}
+
+.data_img {
+	margin-bottom: 25px;
+}
+
+.data_number {
+	width: 160px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 54px;
+	font-weight: 800;
+	margin: auto;
+	text-align: center;
+}
+
+.data_name {
+	width: 154px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	margin: auto;
+	text-align: center;
+}
+
+#content_data {
+	width: 155px;
+	height: 310px;
+	display: inline-block;
+	float: left;
+}	
+
+@media(max-width: 900px) {
+	.indepth_content {
+	    width: 750px;
+	}
+
+	#logo {
+		top: 305px;
+	}
+
+	.text_content {
+	    width: 750px;
+	    height: 145px;
+	    margin-top: 40px;
+	}
+
+	.gif {
+		margin-right: 20px;
+		width: 100px;
+		position: relative;
+    	top: 30px;
+	}
+
+	.gif img {
+		width: 100px;
+	}
+
+	#middle_text {
+    width: 600px;
+    top: 20px;
+	}
+
+	.text {
+		width: 600px;
+	}
+
+	#tour img {
+		width: 750px;
+	}
+
+	#tour {
+		width: 750px;
+		height: 422px;
+	}
+
+	#content {
+    	height: 1088px;
+	}
+}
+
+@media(max-width: 700px) {
+	.indepth_content {
+    	width: 550px;
+    }
+
+    .text_content {
+	    width: 550px;
+	    height: 200px;
+    	margin-top: 0px;
+	}
+
+	#middle_text {
+    	width: 430px;
+    	top: 25px;
+	}
+
+	.text {
+		width: 430px;
+	}
+
+	#tour img {
+		width: 550px;
+	}
+
+	#content {
+    	height: 966px;
+	}
+
+	#ejecucion {
+		top: 50px;
+	}
+
+	#indepth_line {
+		top: 60px;
+	}
+
+	#tour {
+		width: 550px;
+		height: 309px;
+		top: 70px;
+	}
+
+	#resulta_content {
+    	width: 550px;
+	}
+
+	.content_data {
+		margin-right: 37px;
+	}
+
+	.gif {
+		top: 50px;
+	}
+}
+
+@media(max-width: 500px) {
+	.indepth_content {
+    	width: 400px;
+    }
+
+    #logo {
+    	top: 312px;
+    }
+
+    .text_content {
+	    width: 400px;
+	    height: 340px;
+    	margin-top: -85px;
+	}
+
+	#ejecucion {
+		top: 50px;
+	}
+
+	#indepth_line {
+		top: 60px;
+	}
+
+	#middle_text {
+    	width: 400px;
+    	top: 0px;
+	}
+
+	.text {
+		width: 400px;
+		position: relative;
+    	top: 70px;
+	}
+
+	#tour img {
+		width: 400px;
+	}
+
+	#tour {
+		width: 400px;
+		height: 225px;
+		margin-bottom: 70px;
+		top: 70px;
+	}
+
+	#content {
+    	height: 1036px;
+	}
+
+	#resulta_content {
+    	width: 400px;
+    	height: 190px;
+	}
+
+	.content_data {
+		margin-right: 50px;
+		width: 100px;
+		height: 190px;
+	}
+
+	#content_data {
+		width: 100px;
+		height: 190px;
+	}
+
+	.gif {
+		left: 145px;
+		margin-right: 0px;
+	}
+
+	.text span {
+		font-size: 17px;
+	}
+
+	.data_img img {
+		width: 100px;
+	}
+
+	.data_img {
+		width: 100px;
+		margin: auto;
+	}
+
+	.data_number {
+		font-size: 34px;
+		width: 100px;
+	}
+
+	.data_name {
+		width: 100px;
+		font-size: 16px;
+	}
+
+	#final {
+    	height: 400px;
+	}
+}
+
+@media(max-width: 400px) {
+	.indepth_content {
+    	width: 300px;
+    }
+
+    .text_content {
+	    width: 300px;
+	    height: 455px;
+	    margin-top: -150px;
+	}
+
+	#middle_text {
+    	width: 300px;
+    	top: 0px;
+	}
+
+	.text {
+		width: 300px;
+		position: relative;
+    	top: 70px;
+	}
+
+	#ejecucion {
+		top: 50px;
+	}
+
+	#indepth_line {
+		top: 60px;
+	}
+
+	#tour img {
+		width: 300px;
+	}
+
+	#tour {
+		width: 300px;
+		height: 169px;
+		margin-bottom: 50px;
+		top: 70px;
+	}
+
+	#resulta_content {
+    	width: 300px;
+    	height: 190px;
+	}
+
+	.content_data {
+		margin-right: 30px;
+		width: 80px;
+		height: 190px;
+	}
+
+	#content_data {
+		width: 80px;
+		height: 190px;
+	}
+
+	.gif {
+		left: 100px;
+		margin-right: 0px;
+	}
+
+	.text span {
+		font-size: 16px;
+	}
+
+	.data_img img {
+		width: 80px;
+	}
+
+	.data_img {
+		width: 80px;
+		margin: auto;
+	}
+
+	.data_number {
+		font-size: 27px;
+		width: 80px;
+	}
+
+	.data_name {
+		width: 80px;
+		font-size: 12px;
+	}
+
+	#final {
+    	height: 400px;
+	}
+
+	#logo img {
+		width: 360px
+	}
+
+	#logo {
+		width: 300px;
+		height: 110px;
+    	top: 325px;
+    	right: 30px;
+	}
+
+	#content {
+    	height: 1125px;
+	}
+}
