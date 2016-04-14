@@ -11,4 +11,12 @@ $(document).ready(function(){
 			$('i').removeClass('fa-caret-down');
 		}
 	});
+	barsDisapear();
 });
+
+function barsDisapear(){
+	$("#nav-bar-stats").remove();
+	$("#mobile-horizontal-menu").remove();
+	$("#top-bar-wrapper").remove();
+	$("#mobilemenu").remove();
+}
